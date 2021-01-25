@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class="is--index-page"> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll  is--index" 
+			navbar_scrollto="scrollto"  
+			navbar_link="  " 
+			navbar_link_portfolio="#index-portfolio" 
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/default/header/panel.html"
+			block_prefix="header-block__"
+			block_id="index-header"  
+			block_heading="Привет!"
+			block_heading_small="Я Татьяна, <span>web-designer</span>"
+			block_btn="Portfolio"
+			block_bg="{{url-path-img}}/temp/bg-index-header.jpg" 
+		]]	
+		<div class="content-block__panel">
+			[[azbntple 
+				tpl="/src/block/site/default/bg/card-img.html"
+				block_prefix="bg-block__" 
+				block_mod="is--about-img"
+				block_bg="bg-about-img.png"
+			]]
+			[[azbntple  
+				tpl="/src/block/site/page/index-about.html"
+				content_prefix="content-block__"      
+				content_mod="is--index-about" 
+				block_id="index-about"       
+				block_heading_level="h2"
+				block_heading_mod="is--h1  is--before  is--fw-700"
+				block_heading="{{info.name}}" 
+				block_heading_data="about"   
+			]]
+			[[azbntple  
+				tpl="/src/block/site/page/index-skills.html"
+				content_prefix="content-block__"      
+				content_mod="is--index-skills"  
+				block_id="index-skills"       
+				block_heading_level="h2"     
+				block_heading_mod="is--h1  is--before  is--fw-700"
+				block_heading="Освоенные программы"
+				block_heading_data="skills"   
+			]]
+		</div>
+		[[azbntple  
+			tpl="/src/block/site/page/index-main.html"
+			content_prefix="content-block__"     
+			content_mod="is--index-main" 
+			content_bg="{{url-path-img}}/temp/bg-index-main.jpg"  
+			block_id="index-main"        
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-portfolio.html"
+			content_prefix="content-block__"      
+			content_mod="is--index-portfolio"  
+			block_id="index-portfolio"       
+			block_heading_level="h2"     
+			block_heading_mod="is--h1  is--before  is--fw-700"
+			block_heading="Портфолио"
+			block_heading_data="portfolio"   
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/footer.html"
+			footer_prefix="footer__" 
+			block_id="index-footer" 
+			footer_scrollto="scrollto"  
+			footer_link="  " 
+			block_id="index-footer"   
+		]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

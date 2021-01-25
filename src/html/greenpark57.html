@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body>  
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll"  
+			navbar_link=" /"  
+			navbar_link_portfolio="/portfolio.html"
+		]] 
+		[[azbntple  
+			tpl="/src/block/site/page/panel-portfolio-card.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_bread_mod="  "
+			block_bread_level_1="Портфолио"
+			block_bread_level_1_link="/portfolio.html"
+			block_heading_mod="is--h2  is--before  is--fw-700"
+			block_heading_level="h1"
+			block_heading="{{portfolio.2019.greenpark57.name}}"
+			block_maket="<img src='{{url-path-img}}/portfolio/greenpark57-maket1.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket2.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket3.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket4.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket5.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket6.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket7.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket8.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket9.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/greenpark57-maket10.jpg' alt='' class='img-responsive'>"
+			block_site="{{portfolio.2019.greenpark57.site}}"
+			block_studio_logo="{{info.experience.oss.logo}}"
+			block_studio_link="{{info.experience.oss.link}}"
+			block_studio_status="  "
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/footer.html"
+			footer_prefix="footer__" 
+			footer_link=" /" 
+			block_id="index-footer"   
+		]]	
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<header class="{{block_prefix}}block"  style="background-image: url({{block_bg}});" id="{{block_id}}">
+	<div class="container {{block_prefix}}container">
+		<div class="{{block_prefix}}panel">
+			<div class="{{block_prefix}}inner">
+				<h1 class="{{block_prefix}}heading">{{block_heading}}</h1>
+				<div class="{{block_prefix}}heading-small">{{block_heading_small}}</div>
+				<div class="{{block_prefix}}btn">	
+					[[azbntple 
+						tpl="/src/block/site/default/button/link.html"
+						button_prefix="btn__" 
+						button_mod="is--lg"
+						button_link="{{page.portfolio}}"
+						button_name="{{block_btn}}" 
+					]]
+				</div>
+				<a href="#index-about" data-scrollto-diff="-97" class="{{block_prefix}}scrollto scrollto">
+					<div class="{{block_prefix}}scrollto-icon">
+						[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-scroll" ]] 
+					</div>
+					<div class="{{block_prefix}}scrollto-name">
+						Scroll down
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</header>

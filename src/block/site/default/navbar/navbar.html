@@ -1,0 +1,98 @@
+<nav class="{{navbar_prefix}}block  {{navbar_mod}}" data-scrollto="navbar">
+	<div class="{{navbar_prefix}}inner">
+		<div class="{{navbar_prefix}}header">
+			<div class="{{navbar_prefix}}container container  is--header">
+				<div class="{{navbar_prefix}}header-row row ">
+					<div class="{{navbar_prefix}}header-cols cols  is--hamburger">
+						<div class="{{navbar_prefix}}hamburger">
+							<button class="{{navbar_prefix}}hamburger-card" data-scrollto="humb" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false" data-toggle-nav=".navbar-site" data-body="html" data-collapse-nav=".navbar__collapse">
+								<span class="{{navbar_prefix}}hamburger-card-inner">
+									<span class="{{navbar_prefix}}hamburger-card-line  is--left"></span>
+									<span class="{{navbar_prefix}}hamburger-card-line  is--center"></span>
+									<span class="{{navbar_prefix}}hamburger-card-line  is--right"></span>
+								</span>
+							</button>
+						</div>
+					</div>
+					<div class="{{navbar_prefix}}header-cols cols  is--logotip">
+						<a class="{{navbar_prefix}}logotip  {{navbar_scrollto}}" href="{{navbar_link}}#index-header" data-scrollto="nav-item" >
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="logotip" ]]
+						</a>
+					</div>
+					<div class="{{navbar_prefix}}header-cols cols  is--tel">
+						[[azbntple 
+							tpl="/src/block/site/default/continfo/panel-navbar-header.html" 
+							block_prefix="continfo__" 
+							block_mod="is--navbar-header" 
+						]]
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="{{navbar_prefix}}collapse" >
+			<div class="{{navbar_prefix}}container  container  is--collapse">
+				<div class="{{navbar_prefix}}collapse-inner">	
+					<div class="row {{navbar_prefix}}collapse-row">
+						<div class="{{navbar_prefix}}collapse-cols cols  is--center">
+							<ul class="{{navbar_prefix}}nav">
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-scrollto.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Главная" 
+									navbar_link="{{navbar_link}}#index-header"
+									navbar_mod="is--index"
+									navbar_scrollto="{{navbar_scrollto}}"
+									navbar_diff="-90" 
+								]]
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-scrollto.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Обо мне" 
+									navbar_link="{{navbar_link}}#index-about"
+									navbar_mod="  "
+									navbar_scrollto="{{navbar_scrollto}}"
+									navbar_diff="-94" 
+								]]         
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-scrollto.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Навыки" 
+									navbar_link="{{navbar_link}}#index-skills"
+									navbar_mod="  "
+									navbar_scrollto="{{navbar_scrollto}}"
+									navbar_diff="-94" 
+								]]
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-scrollto.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Портфолио" 
+									navbar_link="{{navbar_link_portfolio}}"
+									navbar_mod="  "
+									navbar_scrollto="{{navbar_scrollto}}"
+									navbar_diff="-94" 
+								]]	
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-scrollto.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Контакты"
+									navbar_link="{{navbar_link}}#index-footer"
+									navbar_mod="  "
+									navbar_scrollto="{{navbar_scrollto}}"
+									navbar_diff="0 " 
+								]]
+							</ul>							
+						</div>
+						<div class="{{navbar_prefix}}collapse-cols cols  is--right">
+							<a class="{{navbar_prefix}}logotip  {{navbar_scrollto}}" href="{{navbar_link}}#index-header" data-scrollto="nav-item" >
+								<svg class="{{navbar_prefix}}logotip-svg" width="138" height="44" viewBox="0 0 138 44" xmlns="http://www.w3.org/2000/svg">
+								<path d="M39.5513 20.2135C41.8023 20.8131 43.5485 21.8923 44.8318 23.4512C45.1196 23.7963 45.3757 24.1626 45.5998 24.5499H39.2147C37.6546 23.3644 35.1802 22.7717 31.7883 22.7717H13.2355V18.5347H30.4208C33.2399 18.5347 35.4068 18.055 36.9005 17.0557C38.4363 16.0364 39.2147 14.5775 39.2147 12.6588C39.2147 10.7402 38.4363 9.3012 36.9005 8.32189C36.0478 7.74553 34.9779 7.46055 33.6907 7.26825V2.69238C36.7687 2.99022 39.2292 3.78276 41.0871 5.08419C43.5064 6.763 44.7266 9.08136 44.7266 12.0393C44.7266 13.9579 44.2428 15.6167 43.296 17.0157C42.3704 18.4147 41.1291 19.474 39.5513 20.2135Z M0 7.14222H13.2118V17.305H18.871V7.14222H31.8725V2.58545H0V7.14222Z M18.871 24H13.2118V39.1995H18.871V24Z"/>
+								<text x="21" y="40" class="{{navbar_prefix}}logotip-text">Tatyana Bel.</text>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>

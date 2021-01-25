@@ -1,0 +1,39 @@
+<div class="{{content_prefix}}panel  {{content_mod}}"  id="{{block_id}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--index-panel">
+		<div class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">
+			<div class="{{content_prefix}}cols cols  is--cols-5  is--cols-sm-12  is--left  {{content_mod}}">
+				<div class="{{content_prefix}}preview  {{content_mod}}">
+					<img src="{{url-path-img}}/default/belka.png" alt="{{info.name}}">
+				</div>
+			</div>
+			<div class="{{content_prefix}}cols cols  is--cols-7  is--cols-sm-12  is--right  {{content_mod}}">
+				<div class="{{content_prefix}}elem  {{content_mod}}">
+					[[azbntple 
+						tpl="/src/block/site/default/page-header/panel-heading-data.html"
+						block_prefix="page-header__" 
+						block_mod="{{block_heading_mod}}"
+						block_heading_level="{{block_heading_level}}"
+						block_heading="{{block_heading}}"
+						block_heading_data="{{block_heading_data}}"
+					]]
+					[[azbntple 
+						tpl="/src/block/site/default/tabs/panel-about.html" 
+						block_prefix="tabs__"
+						block_mod="{{content_mod}}"
+						content_prefix="{{content_prefix}}"
+						content_mod="{{content_mod}}"
+					]]
+					<!--<div class="{{content_prefix}}btn  {{content_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/button/link.html"
+							button_prefix="btn-link__" 
+							button_mod="  "
+							button_link="{{url-path-docs}}/resume.pdf"
+							button_name="Распечатать резюме"
+						]]
+					</div>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,105 @@
+<div class="{{content_prefix}}panel  {{content_mod}}"  id="{{block_id}}">
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card-img.html"
+		block_prefix="bg-block__" 
+		block_mod="is--portfolio-img"
+		block_bg="bg-portfolio-img.png"
+	]]
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card-img.html"
+		block_prefix="bg-block__" 
+		block_mod="is--design"
+		block_bg="bg-design.png"
+	]]
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card-img.html"
+		block_prefix="bg-block__" 
+		block_mod="is--portfolio-mobile"
+		block_bg="bg-portfolio-mobile.png"
+	]]
+	<div class="{{content_prefix}}container container  {{content_mod}}">
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-heading-data.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+			block_heading_data="{{block_heading_data}}"
+		]]
+		<div class="{{content_prefix}}row  grid__row  {{content_mod}}">
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html"
+				block_prefix="card-item__" 
+				block_mod="is--portfolio"
+				block_filter="  "
+				block_link="{{portfolio.2019.fedoperator.link}}"
+				block_preview="{{portfolio.2019.fedoperator.preview}}"
+				block_heading="{{portfolio.2019.fedoperator.name}}"
+			]]
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html"
+				block_prefix="card-item__" 
+				block_mod="is--portfolio"
+				block_filter="  "
+				block_link="{{portfolio.2019.amadeus.link}}"
+				block_preview="{{portfolio.2019.amadeus.preview}}"
+				block_heading="{{portfolio.2019.amadeus.name}}"
+			]]
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html"
+				block_prefix="card-item__" 
+				block_mod="is--portfolio"
+				block_filter="  "
+				block_link="{{portfolio.2019.greenpark57.link}}"
+				block_preview="{{portfolio.2019.greenpark57.preview}}"
+				block_heading="{{portfolio.2019.greenpark57.name}}"
+			]]
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html"
+				block_prefix="card-item__" 
+				block_mod="is--portfolio"
+				block_filter="  "
+				block_link="{{portfolio.2018.ssk.link}}"
+				block_preview="{{portfolio.2018.ssk.preview}}"
+				block_heading="{{portfolio.2018.ssk.name}}"
+			]]
+				[[azbntple 
+					tpl="/src/block/site/default/card/card-portfolio.html"
+					block_prefix="card-item__" 
+					block_mod="is--portfolio"
+					block_filter="{{portfolio.2019.delivery.filter}}"
+					block_link="{{portfolio.2019.delivery.link}}"
+					block_preview="{{portfolio.2019.delivery.preview}}"
+					block_heading="{{portfolio.2019.delivery.name}}"
+				]]
+			
+				[[azbntple 
+					tpl="/src/block/site/default/card/card-portfolio.html"
+					block_prefix="card-item__" 
+					block_mod="is--portfolio"
+					block_filter="{{portfolio.2020.fedexpert.filter}}"
+					block_link="{{portfolio.2020.fedexpert.link}}"
+					block_preview="{{portfolio.2020.fedexpert.preview}}"
+					block_heading="{{portfolio.2020.fedexpert.name}}"
+				]]
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html"
+				block_prefix="card-item__" 
+				block_mod="is--portfolio"
+				block_filter="  "
+				block_link="{{portfolio.2018.vekwood.link}}"
+				block_preview="{{portfolio.2018.vekwood.preview}}"
+				block_heading="{{portfolio.2018.vekwood.name}}"
+			]]
+			<div class="grid__cols">
+				[[azbntple 
+					tpl="/src/block/site/default/card/card-portfolio-more.html"
+					block_prefix="card-item__" 
+					block_mod="is--portfolio-more"
+					block_link="{{page.portfolio}}"
+					block_heading="Больше работ"
+				]]
+			</div>
+		</div>
+	</div>
+</div> 

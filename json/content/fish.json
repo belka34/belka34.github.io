@@ -1,0 +1,207 @@
+{
+	"info":{
+		"logotip":"Front-end developer",
+		"name":"Белякова Татьяна",
+		"name_en":"Belyakova Tatyana",
+		"day":"03.04.1993&nbsp;г.",
+		"family":"Замужем",
+		"car":"Водительское удостоверение категорий В",
+		"smoke":"Без вредных привычек",
+		"quality":"Личные качества:",
+		"quality_text":"<ul class='is--style'><li>Многозадачность</li><li>Ответственность</li><li>Обучаемость</li><li>Усидчивость</li><li>Трудолюбие</li></ul>",
+		"edu_vpo_year":"2011 – 2015 гг.",   
+		"edu_vpo":"<p><b>ФГБОУ ВПО Госуниверситет - УНПК.  Факультет: Архитектурно-строительный институт</b></p><p>Направление: «Дизайнер среды».</p><p>Бакалавр</p><p>Закончен с отличием.</p>",
+		"experience":{
+			"fed":{
+				"logo":"firm-fed",
+				"heading":"ООО «ФОН» г.&nbsp;Орёл",
+				"date":"oктябрь 2018 – настоящее время",
+				"post":"Web-дизайнер",
+				"link":"https://fedoperator.ru/"
+			},
+			"oss":{
+				"logo":"firm-oss",
+				"heading":"Студия «ОрелСайтСтрой» г.&nbsp;Орёл",
+				"date":"",
+				"post":"Web-дизайнер",
+				"link":"https://www.orelsite.ru/"
+			},
+			"dd":{
+				"logo":"firm-dd",
+				"heading":"Студия дизайна Александра Дорохова г.&nbsp;Орёл",
+				"date":"февраль 2017 – oктябрь 2018",
+				"post":"Web-дизайнер",
+				"link":"http://dorohovdesign.ru/"
+			},
+			"dim":{
+				"logo":"firm-dim",
+				"heading":"ООО «Димдэк-к» г.&nbsp;Орёл",
+				"date":"сентябрь 2015 – октябрь 2016",
+				"post":"3D-дизайнер"
+			}
+		}
+	},
+	"contacts":{
+		"name":"TPL",
+		"domain":"belka34",
+		"domain_link":"https://belka34.github.io/",
+		"color":"#F24F00",
+		"agreement_page":"agreement",
+		"copyright":"Tatyana Bel.",
+		"email":"Belka3.4@mail.ru",
+		"phone":"+7 (920) 086-17-31",  
+		"phone_tel":"+79200861731",   
+		"clock":"",  
+		"address":"",
+		"map_center_coord":"",
+		"map_zoom":"",
+		"map_point_coord":"",
+		"map_point_heading":""
+	},
+	"soc":{
+		"vk":"https://vk.com/id86239781",
+		"fb":"https://www.facebook.com/",
+		"ok":"https://ok.ru/group/",
+		"tw":"https://twitter.com/",
+		"inst":"https://www.instagram.com/tatiana._.bel/",
+		"tg":"tg://resolve?domain=belka34"
+	},
+	"page":{
+		"index":"/",
+		"about":"/about.html",
+		"articles":"/articles.html",
+		"articles_card":"/articles-card.html",
+		"action":"/action.html",
+		"action_card":"/action-card.html",
+		"services":"/services.html",
+		"services_card":"/services-card.html",
+		"price":"/price.html",
+		"portfolio":"/portfolio.html",
+		"portfolio_card":"/portfolio-card.html",
+		"reviews":"/reviews.html",
+		"contacts":"/contacts.html",
+		"404":"/404.html",
+		"sitemap":"/sitemap.html",
+		"style":"/style.html",
+		"agreement":"/agreement.html"
+	},	
+	"portfolio":{
+		"2020":{
+			"novostroy":{
+				"link":"/novostroy.html",
+				"name":"База новостроек для компании «Федоператор»",
+				"site":"https://novostroy.ru/",
+				"preview":"novostroy-preview.jpg",
+				"maket":"novostroy-maket.jpg",
+				"filter":"novostroy-2020  filter-fed  filter-site"
+			},
+			"fedexpert":{
+				"link":"/fedexpert.html",
+				"name":"Информационный сайт «Федоральный союз профессионалов недвижимости»",
+				"site":"https://fedexpert.ru/",
+				"preview":"fedexpert-preview.jpg",
+				"maket":"fedexpert-maket.jpg",
+				"filter":"filter-2020  filter-fed  filter-site"
+			}
+		},
+		"2019":{
+			"fedoperator":{
+				"link":"/fedoperator.html",
+				"name":"Корпоративный сайт для компании «Федоператор»",
+				"site":"https://fedoperator.ru/",
+				"preview":"fedoperator-preview.jpg",
+				"maket":"fedoperator-maket.jpg",
+				"filter":"filter-2019  filter-fed  filter-site"
+			},	
+			"amadeus":{
+				"link":"/amadeus.html",
+				"name":"Интернет-магазин трикотажных изделий «Amadeus Family»",
+				"site":"https://amadeus-family.ru/",
+				"preview":"amadeus-preview.jpg",
+				"maket":"amadeus-maket.jpg",
+				"filter":"filter-2019  filter-site"
+			},
+			"greenpark57":{
+				"link":"/greenpark57.html",
+				"name":"Сайт для УК «Зеленая роща»",
+				"site":"http://greenpark57.ru/",
+				"preview":"greenpark57-preview.jpg",
+				"maket":"greenpark57-maket.jpg",
+				"filter":"filter-2019  filter-oss  filter-site"
+			},
+			"delivery":{
+				"link":"/delivery.html",
+				"name":"Разработка концепции сайта и фирменного стиля для «Express delivery»",
+				"site":"#",
+				"preview":"delivery-preview.jpg",
+				"maket":"greenpark57-maket.jpg",
+				"filter":"filter-2019  filter-site"
+			},
+			"aurum":{
+				"link":"/aurum.html",
+				"name":"Корпоративный сайт строительной компании «Aurum»",
+				"site":"#",
+				"preview":"aurum-preview.jpg",
+				"maket":"aurum-maket.jpg",
+				"filter":"filter-2019  filter-site"
+			},
+			"garant":{
+				"link":"/garant.html",
+				"name":"Сайт юридического центра «Гарант»",
+				"site":"#",
+				"preview":"garant-preview.jpg",
+				"maket":"garant-maket.jpg",
+				"filter":"filter-2019  filter-site"
+			},
+			"truck":{
+				"link":"/truck.html",
+				"name":"«Truck com»",
+				"site":"#",
+				"preview":"truck-preview.jpg",
+				"maket":"truck-maket.jpg",
+				"filter":"filter-2019  filter-site"
+			}
+		},
+		"2018":{
+			"ssk":{
+				"link":"/ssk.html",
+				"name":"Сайт партнера продаж застройщика «ССК»",
+				"site":"https://skuban.ru/",
+				"preview":"ssk-preview.jpg",
+				"maket":"ssk-maket.jpg",
+				"filter":"filter-2018  filter-fed  filter-site"
+			},
+			"gk":{
+				"link":"/gk.html",
+				"name":"Сайт партнера продаж застройщика «ГИК»",
+				"site":"https://gk-23.ru/",
+				"preview":"gk-preview.jpg",
+				"maket":"gk-maket.jpg",
+				"filter":"filter-2018  filter-fed  filter-site"
+			},
+			"ask":{
+				"link":"/ask.html",
+				"name":"Сайт партнера продаж застройщика «АСК»",
+				"site":"https://ask-ug.ru/",
+				"preview":"ask-preview.jpg",
+				"maket":"ask-maket.jpg",
+				"filter":"filter-2018  filter-fed  filter-site"
+			},
+			"vekwood":{
+				"link":"/vekwood.html",
+				"name":"Разработка сайта и логотипа для «Wooden-V»",
+				"site":"http://vekwood.ru/",
+				"preview":"vekwood-preview.jpg",
+				"maket":"vekwood-maket.jpg",
+				"filter":"filter-2018  filter-dd  filter-site"
+			}
+		}
+	},                     
+	"url-path":"/",
+	"url-path-css":"/css",
+	"url-path-img":"/img",
+	"url-path-js":"/js",
+	"url-path-plugins":"/plugins",
+	"url-path-favicon":"/favicon",
+	"url-path-docs":"/docs"
+}
