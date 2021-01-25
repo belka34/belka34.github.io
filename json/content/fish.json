@@ -87,6 +87,30 @@
 	},	
 	"portfolio":{
 		"2020":{
+			"invest":{
+				"link":"/invest.html",
+				"name":"Landing page для специалиста по финансовому планированию",
+				"site":"https://invest.ru/",
+				"preview":"invest-preview.jpg",
+				"maket":"invest-maket.jpg",
+				"filter":"invest-2020  filter-fed  filter-site"
+			},
+			"legion":{
+				"link":"/legion.html",
+				"name":"Концепт сайта строительной компании «Legion»",
+				"site":"https://legion.ru/",
+				"preview":"legion-preview.jpg",
+				"maket":"legion-maket.jpg",
+				"filter":"legion-2020  filter-fed  filter-site"
+			},
+			"volonters":{
+				"link":"/volonters.html",
+				"name":"Портал волонтерского движения",
+				"site":"https://volonters.ru/",
+				"preview":"volonters-preview.jpg",
+				"maket":"volonters-maket.jpg",
+				"filter":"volonters-2020  filter-oss  filter-site"
+			},
 			"novostroy":{
 				"link":"/novostroy.html",
 				"name":"База новостроек для компании «Федоператор»",
